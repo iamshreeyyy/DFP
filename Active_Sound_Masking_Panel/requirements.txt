@@ -1,0 +1,11 @@
+# Development dependencies for Active Sound Masking Panel
+# Note: This project runs on MicroPython, not CPython
+
+# For development/simulation only:
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.5.0
+
+# MicroPython dependencies (install via mpremote or webrepl):
+# - MicroPython firmware with I2S support
+# - No additional packages needed (uses built-in modules)

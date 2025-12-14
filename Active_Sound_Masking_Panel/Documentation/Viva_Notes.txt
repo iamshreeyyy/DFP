@@ -1,0 +1,20 @@
+VIVA NOTES – ACTIVE SOUND MASKING
+
+Q: Is this Active Noise Cancellation?
+A: No. This is adaptive sound masking, not phase cancellation.
+
+Q: Why pink noise?
+A: Pink noise matches human hearing sensitivity and effectively masks speech.
+
+Q: Why ESP32?
+A: Compact, low-power, built-in I2S support, sufficient DSP capability.
+
+Q: How is safety ensured?
+A: Software limiter and hard gain ceiling prevent SPL above 48 dBA.
+
+Q: Where are speakers placed?
+A: Only in the PET felt layer to avoid compromising passive isolation.
+
+Q: How does the system adapt?
+A: RMS loudness measurement and PI-style feedback control adjust masking level.
+

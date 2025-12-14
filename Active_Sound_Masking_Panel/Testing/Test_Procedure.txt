@@ -1,0 +1,17 @@
+ACTIVE SOUND MASKING – TEST PROCEDURE
+
+1. Mount the panel with all electronics powered ON.
+2. Place calibrated microphone at 1 meter distance.
+3. Power on ESP32 and allow auto calibration (15 seconds).
+4. Measure SPL using Room EQ Wizard (RTA mode).
+5. Verify masking level remains between 38–44 dBA.
+6. Introduce speech noise and confirm adaptive gain increase.
+7. Ensure output never exceeds 48 dBA.
+8. Repeat measurements at 5 spatial points.
+
+Pass Criteria:
+
+* Masking level: 38–44 dBA
+* Spatial variation: ±2 dB
+* Convergence time: ≤15 seconds
+* No audible pumping or oscillation
